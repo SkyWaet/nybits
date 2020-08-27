@@ -1,0 +1,471 @@
+span.adoperation a {
+	padding: 3px;
+	margin: 3px 3px 3px 0;
+	text-weight: bold;
+	border: 1px #cccccc solid;
+}
+
+span.payoperation a {
+	padding: 5px;
+	text-weight: bold;
+	background-color: #ff9933;
+}
+
+div.highlightedline {
+	background-color: #ffffee;
+	padding: 5px;
+	border: 1px #ccccff dotted;
+}
+div.highlightedline:hover {
+	background-color: #ffffff;
+	transition: background-color 2s ease;
+}
+
+td.countthemagentstd div:first-child {
+	overflow: hidden;
+}
+div.contactgroupdiv {
+	overflow: hidden;
+	border-bottom: 1px #999999 dotted;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+div.contactgroupdiv:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+div.contactfielddiv { 
+	overflow: hidden;
+	text-overflow: ellipsis; 	
+	width: 99%;
+	white-space: nowrap;	
+	padding: 0 0 4px 0;
+}
+
+
+
+
+/* Listing div */
+
+div.listing_content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	clear: both;	
+	overflow: auto;
+	margin-top: 10px;
+}
+div.listing_description {
+	overflow: auto;
+	clear: both;
+	font-size: 14px;
+	text-align: left;
+	padding: 10px 5px 10px 5px;
+	line-height: 1.4em;	
+}
+div.listing_photos img, div.listing_map img {
+	image-orientation: from-image; 
+	max-width: 600px;
+}
+div.listing_subwaystops { text-align: left; }
+div.listing_subwaystops ul { margin: 1em; padding: 0; }
+div.listing_subwaystops ul li { display: inline; text-align: left; }
+div.listing_subwaystops ul li:before { content: " \00b7"; }
+
+/* Listing table */
+
+table.listing_summary {
+	padding: 3px 3px 3px 0; /* was: 3 8 3 0 */
+	text-align: left;
+	vertical-align: top;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+table.listing_summary td:nth-child(odd) {
+	border-bottom: 1px #cccccc dotted;
+	font-family: arial,sans-serif;
+	vertical-align: top;
+	width: 130px;
+	font-weight: bold;	
+}
+table.listing_summary td:nth-child(even) {
+	border-bottom: 1px #cccccc dotted;
+	vertical-align: top;
+	width: 240px;
+	font-family: arial,sans-serif;
+}
+table.listing_summary td:nth-child(2) ol {
+	padding: 0;  
+	margin: 0 0 0 1.4em; 
+}
+table.listing_summary td:nth-child(2) span {
+	overflow: hidden;
+	text-overflow: ellipsis; 	
+}
+
+
+
+
+
+div.listing_favorite_ops {
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+div.listing_favorite_ops a {
+	padding: 5px;
+	border: 1px solid #daedff; 
+	margin-left: auto;
+	margin-right: auto;
+}
+div.listing_favorite_ops a:hover{
+	background-color: #f0f0f0;
+}
+
+/* Featured listing ad */
+
+
+table.ad_lst_fea_wrapper {
+	padding: 0;
+	margin: 15px 0 15px 0;
+	overflow: hidden;
+	border-collapse: collapse;
+	width: 700px;
+}
+td.ad_lst_fea_left {
+	width: 80px;
+	padding: 2px 0 2px 0;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+	background-color: #fcfcfc;
+}
+td.ad_lst_fea_right {
+	padding: 2px 0 2px 10px;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+	background-color: #fcfcfc;
+}
+
+div.ad_lst_fea_title{
+	float: left;
+	font-size: 18px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+.ad_lst_fea_title a{
+	/* text-decoration: none; */
+}
+div.ad_lst_fea_tag{
+	font-size: 14px;
+	padding: 1px;	
+	float: left;
+	background-color: #3399ff; 
+	color: #ffffff;
+}
+div.ad_lst_fea_rent {
+	float: left;
+}
+span.greenspan{
+	color: #66cc66;
+}
+div.ad_lst_fea_details{
+	clear: both;
+	padding: 4px 2px 1px 2px;
+	background-color: #daedff; 
+	overflow: hidden;
+}
+img.ad_lst_fea_image{
+	float: left;
+	width: 80px;
+	height: 60px;
+	border: 0px;
+}
+
+
+
+
+
+
+
+/* Listing 19 */
+
+div.listing19_env {
+	clear: both;
+	overflow: hidden;
+	margin: 15px 0 15px 0;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+}
+div.listing19_left {
+	overflow: hidden;
+	float: left;
+	width: 120px;
+	height: 90px;
+	padding: 0px;
+	background-color: #eeeeee; 
+	/* background-image: url("https://www.nybits.com/apartmentimages/xcVbMiCsMHabPw5GoMJjV7VgLWY._smallimg.jpeg"); */
+}
+div.listing19_left img {
+	position: relative;
+	/* filter: grayscale(100%); */
+}
+div.listing19_left img:hover {
+	filter: grayscale(100%);
+}
+div.aptimage {
+	position: relative;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+div.centeredtext {
+	position: absolute;
+	top: 37%;
+	left: 30px;
+	background-color: #f0f0f0;
+	width: 60px;
+	z-index: 2;
+	text-align: center;
+	/* transform: translate(-50%, -50%); */
+	opacity: 0.9;
+}
+div.centeredtext:hover {
+	color: #3399ff;
+}
+
+div.videotext {
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	z-index: 2;
+	text-align: center;
+	font-size: 18px;
+	color: #3399ff;
+	background-color: #f0f0f0; 
+	padding: 2px;
+	opacity: 0.75;
+}
+
+
+div.listing19_right {
+	overflow: hidden;
+	float: left;
+}
+div.listing19_nofee {
+	background-color: #ffffff;
+}
+div.listing19_fee {
+	background-color: #ffffff;
+}
+div.listing19_expired {
+	background-color: #f0f0f0;
+}
+div.listing19_right_row1 {
+	border-bottom: 1px #cccccc dotted;
+	padding: 2px 0 1px 0;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.listing19_right_row2 {
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.listing19_right_row3 {
+	color: #999999;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div.listing19_right_row4 {
+	color: #333333;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+span.listing19_right_row1_params {
+	color: #999999;
+}
+
+
+
+
+#leadmessagesent {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+div.mail_contact_form {
+}
+
+#listingmessageform {
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px #cccccc dotted;
+	background-color: #eeeeee;
+}
+
+#listingmessagetable {
+	margin-left: auto;
+	margin-right: auto;
+}
+#listingmessagetable td:first-child {
+	text-align: left;
+	width: 80px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#listingmessagetable td:nth-child(2) {
+	width: 220px;
+	padding: 5px;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 720px) {
+
+	div.listing19_env {
+		border-left: 0px #cccccc solid;
+		border-right: 0px #cccccc solid;
+	}
+
+	div.listing19_right {
+		background-color: #f6f6ff;
+		padding: 0 5px 0 5px;
+		width: 570px;
+	}
+	span.listing19_right_row1_name {
+		font-size: 1.3em;
+	}
+	div.listing19_right_row2 {
+		font-size: 1.0em;
+	}
+	div.listing19_right_row3 {
+		font-size: 1.0em;
+	}
+	div.listing19_right_row4 {
+		font-size: 1.0em;
+	}
+	
+	.videoframe {
+		width: 600px;
+		height: 400px;
+	}
+	
+
+}
+
+
+
+@media only screen and (max-device-width : 720px) {
+
+
+	div.listing19_env {
+		border-left: 0px;
+		border-right: 0px;
+	}
+
+	div.listing19_right {
+		background-color: #f6f6ff;
+		padding: 0 4px 0 4px;
+		width: 190px;
+	}
+	span.listing19_right_row1_name {
+		font-size: 1.1em;
+	}
+	div.listing19_right_row2 {
+		font-size: 0.8em;
+	}
+	div.listing19_right_row3 {
+		font-size: 0.8em;
+	}
+	div.listing19_right_row4 {
+		font-size: 0.8em;
+	}
+
+	/* Featured listing */
+
+	table.ad_lst_fea_wrapper {
+		width: 320px;
+	}
+	div.ad_lst_fea_rent {
+		float: left;
+		clear: both;
+	}
+	td.ad_lst_fea_left {
+		width: 80px;
+		padding: 2px 0 2px 0;
+		border-top: 1px #999999 solid;
+		border-bottom: 1px #999999 solid;
+		background-color: #fcfcfc;
+	}
+	td.ad_lst_fea_right {
+		padding: 2px 0 2px 10px;
+		border-top: 1px #999999 solid;
+		border-bottom: 1px #999999 solid;
+		background-color: #fcfcfc;
+	}
+	
+	/* Regular listing */
+	
+	table.listing_summary {
+		padding: 1px 0 1px 0; 
+		margin: 10px 0 10px 0;
+		border-spacing:0;
+		border-collapse:collapse;
+	}
+	table.listing_summary td:first-child {
+		/* width w/ padding : 114 */
+		width: 110px;
+		font-size: 13px;
+		padding: 3px 2px 2px 2px;
+	}
+	table.listing_summary td:nth-child(2) {
+		/* width w/ padding : 204 */
+		width: 200px;
+		font-size: 13px;
+		padding: 2px;
+	}
+	div.listing_photos img, div.listing_map img {
+		width: 318px;
+	}
+	
+	/* Mobile divs for showing banners correctly */
+	
+	#mob_both_content_and_banner_ad { 
+		display: table; 
+	}
+	#mob_only_banner_ad {
+		display: table-footer-group;
+	}
+	#mob_content_but_not_banner_ad {
+		display: table-header-group;
+	}
+	#rental_listing_banner_div, #building_banner_div {
+		float: center;
+		padding: 0;
+		margin: 10px 10px 10px 10px;
+	}
+
+	.videoframe {
+		width: 300px;
+		height: 200px;
+	}
+
+}

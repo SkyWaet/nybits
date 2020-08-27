@@ -1,0 +1,156 @@
+div.rentalstats {
+	float: left; 
+	vertical-align: top;
+	overflow: auto;
+	/* border: 1px #ff0000 solid; */
+	/* background-color: #ffff00; */
+}
+div.rentalstats table {
+	text-align: center;
+	width: 300px;
+	border-collapse: collapse;
+	margin: 10px auto 10px auto;
+}
+div.rentalstats table td {
+	padding: 4px 1px 4px 1px;
+	border-bottom: 1px #eeeeee solid;
+}
+div.rentalstats table tr:first-child {
+	font-weight: bold;
+}
+div.rentalstats table tbody tr:nth-of-type(even) {
+	background-color: #f5f5ff;
+}
+
+
+
+/* Inset DIVs: where the stats are incorporated into another page */
+
+div.rentalstatsinsetN, div.rentalstatsinsetB, 
+div.rentalstatsinsetI, div.rentalstatsinsetM {
+	overflow: auto;
+	text-align: center;
+}
+div.rentalstatsinsetN {
+}
+div.rentalstatsinsetI {
+	float: left;
+}
+
+/* Inset DIVs: portfolio graphs */
+div.portfoliobsetM {
+	overflow: auto;
+	text-align: center;
+	float: left;
+}
+div.portfoliobsetMbody {
+	clear: both;
+	overflow: auto;
+	margin: 20px 0 0 0; 
+	padding: 0;
+}
+
+div.portfoliobsetN {
+	overflow: auto;
+	text-align: center;
+	float: left;
+}
+div.portfoliobsetNbody {
+	clear: both;
+	overflow: auto;
+	margin: 20px 0 0 0; 
+	padding: 0;
+}
+
+
+
+@media only screen and (min-device-width:720px)
+{
+	div.rentalstatsinsetN {
+		width: 300px;
+		float: left; /* WAS: right */
+		margin: 10px 0 0 0;
+		/* margin: 50px 0 15px 15px; padding: 5px 10px 5px 10px; */
+	}
+	div.rentalstatsinsetN h2 { 
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	div.rentalstatsinsetB, div.rentalstatsinsetM {
+		width: 300px;
+		margin: 10px 0 0 0;
+		float: left;
+	}
+	div.rentalstatsinsetB h2, div.rentalstatsinsetM h2 { 
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	div.portfoliobsetM {
+		width: 300px;
+		margin: 10px 0 0 60px;
+	}
+	div.portfoliobsetM h2 { 
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	div.portfoliobsetN {
+		width: 300px;
+		margin: 10px 0 0 60px;
+	}
+	div.portfoliobsetN h2 { 
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	div.rentalstatsinsetI {
+		width: 350px;
+	}
+	
+	table.traffic_stats_table td {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	table.traffic_stats_table tr:first-child td {
+		font-weight: bold;
+		border-bottom: 3px #333333 solid;
+	}
+	table.traffic_stats_table td {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	table.traffic_stats_table tr td:not(:first-child) {
+		text-align: center;
+	}
+	table.traffic_stats_table tr:nth-child(even) td:first-child {
+		font-weight: bold;
+		padding-right: 20px;
+	}
+	td.traffic_stats_row_host{
+		background: #efefef;
+		text-align: left;
+		border-bottom: 1px #333333 solid;
+	}
+}
+
+
+
+@media only screen and (max-device-width:720px)
+{
+	div.rentalstatsinsetN, div.rentalstatsinsetB, 
+	div.rentalstatsinsetI, div.rentalstatsinsetM {
+		width: 318px;
+		float: none;
+		clear: both;
+		margin: 0;
+	}
+
+	div.rentalstats {
+		padding: 0;
+		margin: 0;
+	}
+}

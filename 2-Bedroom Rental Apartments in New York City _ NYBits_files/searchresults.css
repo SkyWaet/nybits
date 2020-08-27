@@ -1,0 +1,324 @@
+
+div.after_search_buttons {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	overflow: auto;
+	background: #eeeeee;
+}
+
+div.after_search_buttons form {
+	display: inline; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.after_search_buttons input[type=submit], div.after_search_buttons button  {
+	background:#fefefe;
+	/* padding: 10px 11px 11px 11px !important; */
+	padding: 4px 6px !important;
+	-webkit-border-radius: 6px;
+	-webkit-appearance: none;
+	border-radius: 6px;
+	font-size: 13px;
+	border: 1px #ccccff solid;
+}
+div.after_search_buttons input[type=submit]:hover, div.after_search_buttons button:hover {
+	background: #eeeeff;
+	cursor: pointer;
+}
+
+/* Pagination */
+
+div.sr_pagination input[type=submit], div.sr_pagination button {
+	background: #fefefe;
+	padding: 4px 6px !important;
+	-webkit-border-radius: 6px;
+	-webkit-appearance: none;
+	border-radius: 6px;
+	font-size: 13px;
+	border: 1px #ccccff solid;
+	margin: 3px 0;
+
+}
+div.sr_pagination input[type=submit]:hover, div.sr_pagination button:hover {
+	background: #eeeeff;
+	cursor: pointer;
+}
+
+
+div.sr_pagination table td {
+	padding: 5px 0;
+	background-color: #ffffff;
+	line-height: 2.2em;
+	
+}
+
+/* Rental listing (short) */
+
+div.sr_envelope {
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+	overflow: auto;
+	padding: 3px 0 3px 0;
+	margin: 0px 0 0px 0;
+}
+div.sr_price {
+	float:left;
+	padding: 15px 2px 10px 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+div.sr_rightpart {
+	float: left;
+	padding: 0;
+}
+div.sr_topline {
+	padding: 3px 0 3px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;		
+}
+div.sr_bottomline {
+	overflow: auto;
+}
+div.sr_postedby {
+	float: left;
+	padding: 2px;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;		
+}
+div.sr_date {
+	float: left;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	padding: 2px;
+	text-align: center;
+}
+div.sr_nofee {
+	background-color: #daedff; 
+}
+div.sr_fee {
+	background-color: #ffdaed; 
+}
+div.sr_expiredad {
+	background-color: #cccccc; 
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width:720px)
+{
+
+	div.sr_price {
+		width: 80px;
+		padding: 15px 2px 10px 2px;
+	}
+	div.sr_rightpart {
+		padding: 0;
+	}
+	div.sr_topline {
+		width: 612px;
+		padding: 3px 2px 3px 2px;
+	}
+	div.sr_bottomline {
+		width: 612px;
+		padding: 2px;
+	}
+	div.sr_postedby {
+		width: 440px;
+		font-size: 11px;
+	}
+	div.sr_date {
+		width: 80px;
+	}
+
+}
+
+
+
+
+@media only screen and (max-device-width:720px)
+{
+	div.sr_envelope {
+		padding: 3px 0 3px 0;
+	}
+	div.sr_price {
+		width: 60px;
+		padding: 15px 2px 10px 2px;
+	}
+	div.sr_rightpart {
+		width: 252px;
+		padding: 0;
+	}
+	div.sr_topline {
+		width: 252px;
+		padding: 3px 0 3px 0;
+	}
+	div.sr_bottomline {
+		width: 252px;
+	}
+	div.sr_postedby {
+		width: 120px;
+		font-size: 11px;
+	}
+	div.sr_date {
+		width: 60px;
+	}
+
+
+	span.lst_sr_amenityspan {
+		display: none;
+	}
+	
+	
+	/* Search */
+	table.searchformtable td {
+		font-size: 12px;
+		font-family: arial,sans-serif;
+	}
+
+	div.after_search_buttons input[type=submit], div.after_search_buttons button  {
+		padding: 8px 12px 9px 12px !important;
+	}
+}
+
+
+/* DEPRECATED */
+
+@media only screen and (min-device-width:720px)
+{
+
+	#rentaltable {
+		width: 100%;
+	}
+	td.lst_sr_postedbywhom {
+		width: 428px;
+	}
+}
+
+/* Rental table + cells */
+
+#rentaltableXXX {
+	table-layout: fixed;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table#rentaltable td {
+	padding: 2px;
+}
+
+td.headercellfont {
+	font-size: 12px;
+	font-family: arial,sans-serif;
+}
+
+td.lst_sr_price_hdr {
+	text-align: left;
+	width: 80px;
+	font-size: 12px;
+}
+td.lst_sr_what_hdr {
+	font-size: 12px;
+}
+td.lst_sr_date_hdr {
+	width: 90px;
+	font-size: 12px;
+	text-align: center;
+}
+td.lst_sr_price {
+	border-top: 1px #333333 solid;
+	text-align: left;
+	width: 80px;
+}
+td.lst_sr_topcell {
+	border-top: 1px #333333 solid;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+}
+td.lst_sr_postedbywhom {
+	background-color: #daedff; 
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;		
+}
+td.lst_sr_date {
+	background-color: #daedff;
+	width: 90px;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	text-align: center;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;		
+}
+td.lst_sr_status {
+	text-align: center;
+	vertical-align: middle;
+}
+
+span.lst_sr_amenityspan {
+	color: #666666; 
+	font-size: 11px;
+}
+
+
+
+
+
+
+@media only screen and (max-device-width:720px)
+{
+	
+	td.lst_sr_price_hdr {
+		width: 60px;
+		font-size: 12px;
+	}
+	td.lst_sr_what_hdr {
+		font-size: 12px;
+	}
+	td.lst_sr_date_hdr {
+		width: 60px;
+		font-size: 12px;
+		text-align: center;
+	}
+	td.lst_sr_price {
+		width: 60px;
+		font-size: 11px;
+		font-family: arial,sans-serif;
+		overflow: hidden;
+	}
+	td.lst_sr_date {
+		width: 60px;
+		overflow: hidden;
+		text-align: center;
+		font-size: 10px;
+		font-family: arial,sans-serif;
+	}
+	td.headercellfont {
+		font-size: 11px;
+		font-family: arial,sans-serif;
+	}
+	td.lst_sr_postedbywhom {
+		overflow: hidden;
+		font-size: 10px;
+		font-family: arial,sans-serif;
+		width: 124px;
+	}
+
+}

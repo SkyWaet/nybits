@@ -1,0 +1,30 @@
+div.registrationform {
+	margin: 0 0 10px 0;
+}
+div.registrationform table td {
+	padding: 3px 10px 3px 0;
+}
+
+/* General elements (login form, etc) */
+
+#uiftable {
+	border-collapse: collapse;
+	margin: 25px auto 25px auto;
+}
+#uiftable td {
+	padding: 8px;
+	border-bottom: 1px #eeeeee solid;
+	border-left: 1px #eeeeee solid;
+	border-right: 1px #eeeeee solid;
+}
+td.tablerowinfo {
+	background-color: #f5f5ff;
+	font-weight: bold;
+}
+
+#registrationform {
+	margin: 0 0 20px 0;
+}
+#registrationform table td {
+	padding: 5px 5px 5px 1px;
+}

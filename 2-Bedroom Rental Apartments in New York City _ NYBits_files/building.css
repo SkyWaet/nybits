@@ -1,0 +1,116 @@
+div.min_photo_gallery img { width:120px; }
+
+
+div.neielement {
+float:left; padding: 0 5px 0 0;
+}
+div.munielement {
+float:left; padding: 0 1px 0 10px;
+}
+
+
+div.compactrentallistings {
+	padding: 0;
+	overflow: auto;
+}
+div.compactrentallistings table {
+	text-align: center;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+img.subwaylineimage {
+padding: 0;
+}
+
+.centeredh3 {
+padding-left:auto;
+padding-right:auto;
+}
+
+
+/* NEARBY BUILDINGS + SUBWAY */
+
+div.nearbybuildings { float: left; }
+div.nearbysubway { float: left; }
+div.nearbybuildings ul, div.nearbysubway ul { 
+	margin-left: 3px; 
+	padding-left: 1em;
+	padding-top: 1px;
+	text-indent: 0em;
+}
+div.nearbybuildings, div.nearbysubway li { 
+	padding: 0px;
+	margin: 0px;
+} 
+
+div.photogallery {
+	margin: 20px 0 0 0;
+	clear: both;
+	text-align: center;
+}
+
+div.createalertdiv {
+margin: 2px 0 15px 0;
+}
+
+
+
+/* BUILDING - SHORT ELEMENTS (DIV) */
+
+div.bldg_seq_short div{
+	padding: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 1.4em;
+}
+div.bldg_seq_short > div:nth-of-type(3n+1){
+	float: left;
+}
+div.bldg_seq_short > div:nth-of-type(3n+2){
+	float: left;
+}
+div.bldg_seq_short > div:nth-of-type(1){ border-top: 2px #999999 solid; }
+div.bldg_seq_short > div:nth-of-type(2){ border-top: 2px #999999 solid; }
+div.bldg_seq_short > div:nth-of-type(3){ border-top: 2px #999999 solid; }
+div.bldg_seq_short > div:nth-of-type(6n+1){ background-color:#eeeeee; }
+div.bldg_seq_short > div:nth-of-type(6n+2){ background-color:#eeeeee; }
+div.bldg_seq_short > div:nth-of-type(6n+3){ background-color:#eeeeee; }
+div.bldg_seq_short > div:nth-last-child(-n+3){ border-bottom: 2px #999999 solid; }
+
+
+
+
+@media only screen and (min-device-width:720px)
+{
+
+
+	div.nearbybuildings { width: 345px;}
+	div.nearbysubway { width: 345px; }
+
+
+	/* BUILDING - SHORT ELEMENTS (DIV) */
+
+	div.bldg_seq_short > div:nth-of-type(3n+1){ width: 200px; }
+	div.bldg_seq_short > div:nth-of-type(3n+2){ width: 240px; }
+	div.bldg_seq_short > div:nth-of-type(3n){ width: 230px; }
+
+
+}
+
+
+
+@media only screen and (max-device-width:720px)
+{
+
+	div.nearbybuildings { width: 320px;}
+	div.nearbysubway { width: 320px; }
+
+	/* BUILDING - SHORT ELEMENTS (DIV) */
+
+	div.bldg_seq_short > div:nth-of-type(3n+1){ width: 150px; }
+	div.bldg_seq_short > div:nth-of-type(3n+2){ display: none; }
+	div.bldg_seq_short > div:nth-of-type(3n){ width: 150px; }
+
+}

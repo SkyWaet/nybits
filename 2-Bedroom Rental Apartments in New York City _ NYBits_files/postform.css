@@ -1,0 +1,105 @@
+
+#rentalpostform {
+	padding: 5px 0 5px 0;
+	border-top: 1px #999999 dotted;
+	border-bottom: 1px #999999 dotted;
+}
+
+div.rentalpostformfield {
+	padding: 10px 4px 10px 4px;
+	background-color:#daedff;
+	overflow: auto;
+}
+
+div.breakboth { clear: both; }
+div.clearleft { clear: left; }
+div.clearright { clear: right; }
+div.clearleftonmobile { clear: none; }
+div.clearrightonmobile { clear: none; }
+
+div.width100 {
+	width: 100px;
+}
+div.rentalpostformlabel {
+	float: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 2px;
+	margin: 0 10px 0 0;
+	font-size: 16px;
+}
+div.rentalpostformlabelwithbreak {
+	clear: both;
+	font-weight: bold;
+	padding: 5px 10px 5px 2px;
+	margin: 0 10px 0 10px;
+}
+div.rentalpostforminput {
+	float: left;
+	padding: 5px 1px 5px 1px;
+	margin: 0 10px 0 10px;
+}
+
+div.rentalpostformfield input[type="text"], 
+div.rentalpostformfield input[type="tel"], 
+div.rentalpostformfield input[type="date"], 
+div.rentalpostformfield input[type="time"], 
+div.rentalpostformfield input[type="email"] {
+	font-size: 16px;
+	padding: 1px;
+}
+div.rentalpostformfield input[type="checkbox"] {
+	margin: 6px;
+}
+div.rentalpostformfield textarea, 
+div.rentalpostformfield select {
+    border: 1px solid #DADADA;
+    color: #888;
+	font-size: 16px;
+}
+div.rentalpostformfield textarea {
+	margin: 10px 4px 10px 4px;
+}
+
+
+
+
+
+#rentalpostformdiv input[type="text"] {
+	color: #333366;
+	font-size:16px;
+}
+
+#rentalpostformtable {
+	width: 99%;
+	border-spacing: 0;
+}
+table#rentalpostformtable td {
+	padding: 10px 8px 8px 8px;
+	background-color: #f6f6f9;
+	vertical-align: top;
+}
+
+tr#rentalpostformtablesection td {
+	background-color: #333366;
+	padding: 5px;
+	color: #ffffff;
+	font-family: Arial;
+}
+#rentalpostformtable > tbody > tr > td:nth-of-type(odd) {
+	width: 220px;
+	font-size: 16px;
+}
+#rentalpostformtable > tbody > tr > td:nth-of-type(even) {
+	font-size: 16px;
+}
+
+div.clearbothonall { clear: both; }
+
+
+@media only screen 
+and (max-device-width:720px){
+
+	div.clearleftonmobile { clear: left; }
+	div.clearrightonmobile { clear: right; }
+
+}

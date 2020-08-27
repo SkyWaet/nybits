@@ -1,0 +1,143 @@
+div.quicksearchform {
+	margin: 15px 0 15px 0;
+	background-color:#daedff;
+	border: 1px #cccccc solid;
+	overflow: hidden;
+}
+div.quicksearchform > div {
+	padding: 8px 8px 8px 5px;
+	overflow: hidden;
+}
+div.quicksearchform_title {
+	padding: 12px;
+	vertical-align: middle;
+}
+div.quicksearchform div:nth-of-type(1) {
+	float: left;
+	padding-top: 6px;
+	padding-right: 20px;
+}
+div.quicksearchform div:nth-of-type(2) {
+	float: left; padding-right: 20px;
+}
+div.quicksearchform div:nth-of-type(3) {
+	float: left;
+}
+
+
+
+div.contactform {
+	padding: 5px 0 5px 0;
+	border-top: 1px #999999 dotted;
+	border-bottom: 1px #999999 dotted;
+}
+div.contactformfield {
+	padding: 10px 4px 10px 4px;
+	background-color:#daedff;
+}
+
+
+
+/* Search */
+
+table.searchformtable {
+	table-layout: fixed;
+	border-collapse: separate;
+}
+table.searchformtable td {
+	vertical-align: top;
+	border-bottom: 1px solid #cccccc;
+}
+table.searchformtable td:nth-child(odd) {
+	padding: 5px 5px 5px 0;
+	width: 95px;
+	font-weight: bold;
+}
+table.searchformtable td:nth-child(even) {
+	padding: 5px;
+	width: 590px;
+}
+
+div.layoutboxdiv {
+	float: left;
+	padding: 2px 10px 2px 0;
+}
+div.amenityboxdiv {
+	float: left;
+	padding: 2px 10px 2px 0;
+}
+
+div.searchtextdiv {
+	margin: 0 0 5px 0;
+}
+div.neighborhoodsearchboxes {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+div.searchsubmitbuttondiv {
+	background: #dedede; 
+	padding: 5px; 
+	margin: 0 0 10px 0;
+}
+
+div.zonestosearchdiv {
+	float: left;
+	width: 172px;	/* was: 170, then 168 */
+	padding: 0;
+	margin: 0;
+	border-left: 1px #eeeeee solid;
+	border-right: 1px #eeeeee solid;
+}
+div.zonecheckbox {
+	height: 20px;
+	padding: 4px;
+	background-color: #daedff;
+}
+div.subzonecheckboxes {
+	padding: 3px 3px 3px 18px;
+}
+div.subzonecheckboxes ul {
+	list-style-type: none; 
+	margin: 0.1em; 
+	padding-left: 1em; 
+	text-indent: -1.26em;
+}
+
+
+
+@media only screen and (max-device-width:720px){
+
+	div.quicksearchform {
+		margin: 15px 0 15px 0;
+	}
+	div.quicksearchform div:first-of-type {
+		padding-top: 8px;
+	}
+	div.quicksearchform div:nth-of-type(2) {
+		float: left;
+		padding-right: 5px;
+	}
+	div.quicksearchform div:nth-of-type(3) {
+		break: all;
+		padding-right: 5px;
+		border-top: 1px #333333 solid;
+		width: 98%;
+		background-color:#aaaacc;
+	}
+
+	/* Search form elements */
+	div.layoutboxdiv { width: 96px; }
+
+	div.zonestosearchdiv {
+		float: left;
+		width: 155px;
+		padding: 0 0 0 2px;
+		font-size: 12px;
+	}
+	div.subzonecheckboxes {
+		padding: 3px 3px 3px 6px;
+	}
+	
+}
+

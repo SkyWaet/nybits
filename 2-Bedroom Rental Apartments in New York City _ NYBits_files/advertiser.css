@@ -1,0 +1,463 @@
+#advdashboard thead tr td {
+	background-color: #eeeef3;
+	border-bottom: 3px #333333 solid;
+	color: #000033;
+	padding: 5px;
+}
+#advdashboard tbody tr:nth-of-type(even) td {
+	text-align: right;
+	border-bottom: 1px #cccccc solid;
+	background-color: #f3f3f3;
+	font-size: small;
+}
+#advdashboard tbody tr:nth-of-type(odd) td:first-of-type {
+	text-align: left;
+	padding: 3px;
+}
+#advdashboard tbody tr:nth-of-type(odd) td:not(:first-of-type) {
+	text-align: center;
+	padding: 3px;
+}
+
+
+
+
+
+/* Featured listing ad */
+
+div.div_featured_listing_wrapper {
+	padding: 0;
+	margin: 15px 0 15px 0;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+div.div_featured_listing_left {
+	float: left;
+	height: 90px;
+	width: 120px;
+	overflow: hidden;
+	padding: 3px 0 3px 0;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+	background-color: #fcfffc;
+	margin: 0;
+}
+div.div_featured_listing_left img {
+	width: 120px;
+	height: 90px;
+	padding: 0;
+	border: 0;	
+}
+
+div.div_featured_listing_right {
+	overflow: hidden;
+	float: left;
+	width: 570px;
+	height: 90px;
+	padding: 3px 0 3px 10px;
+	margin: 0 0 0 0px;
+	border-top: 1px #999999 solid;
+	border-bottom: 1px #999999 solid;
+	background-color: #fffcfc;
+}
+div.div_featured_first_line {
+	padding: 6px 0 6px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 	
+}
+div.div_featured_first_line a {
+	text-decoration: none;
+	color: #3366cc; 
+}
+div.div_featured_first_line a:hover {
+	text-decoration: underline;
+}
+div.div_featured_second_line {
+	background-color: #daedff; 
+	margin: 4px 0 0 0;
+	line-height: 1.4em;
+	padding: 6px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 	
+}
+
+span.span_featured_label {
+	background: #3399ff;
+	color: #ffffff;
+	padding: 1px 6px 1px 6px;
+	size: 12px;
+	font-style: bold;
+	text-transform: lowercase;
+}
+span.span_featured_fee_label {
+}
+span.span_featured_rent_label {
+	padding: 0 6px 0 6px;
+}
+
+
+
+/* Featured property ("tile") ad */
+
+div.featuredpropertiesdiv{
+	width: 682px; 
+	/*padding: 9px 9px 9px 9px;  9px just to be sure; */
+	padding: 8px;
+	background-color: #f9f9ff;
+	overflow: hidden;
+	margin: 15px 0 15px 0;
+	border: 0;
+}
+div.featuredpropertycell{
+	width: 170px; /* 175*4 = 700 */
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis; 
+	color: #666677;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 13px;
+}
+div.featuredpropertycell img{
+	width: 120px;
+	height: 90px;
+	border: 1px #999999 solid;
+}
+
+
+/* Homepage featured listing */
+
+div.homepage_featured_listing {
+	float: left;
+	text-align: center;
+	color: #ffffff;
+}
+div.homepage_featured_listing img {
+	margin-left: auto;
+	margin-right: auto;
+}
+div.homepage_featured_listing_line1 {
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+div.homepage_featured_listing_line2 {
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+
+/* Neighborhood ad */
+
+div.ad_nei_left {
+	float: left;
+	overflow: auto;
+	width: 120px; /* d+m */
+	padding: 5px; /* d+m */
+}
+div.ad_nei_left img {
+	width: 120px; /* d+m */
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.ad_nei_right {
+	line-height: 1em; 
+	float: left;
+	overflow: hidden;
+}
+div.ad_nei_line {
+	display: block;
+	width: inherit;
+	padding: 0;
+	margin-bottom: 0;
+	font-family: Helvetica, sans-serif;
+}
+div.ad_nei_subline {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+}
+div.ad_nei_contents_pname {
+	max-width: 330px;
+	height: 20px;
+	padding: 0;
+	vertical-align: top;
+	font-family: Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+div.ad_nei_contents_nname {
+	max-width: 210px;
+	height: 20px;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	font-family: Verdana, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	color: #444444;
+}
+div.ad_nei_contents_web {
+	max-width: 280px;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+div.ad_nei_contents_phone {
+	max-width: 280px;
+	margin: 0 0 0 12px;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+div.ad_nei_contents_ame {
+	max-width: inherit;
+	font-size: 13px;
+	margin: 15px 0 1px 0;
+	color: #444444;
+}
+div.ad_nei_contents_lay {
+	max-width: 300px;
+	font-size: 13px;
+	margin: 2px 0 0 0;
+	color: #555555;
+}
+div.ad_nei_contents_lst {
+	max-width: 260px;
+	font-size: 13px;
+	margin: 2px 0 0 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.shortinvoice {
+	clear: both;
+	overflow: auto;
+	margin: 5px 0 10px 0;
+	border: 1px #cccccc solid;
+}
+div.shortinvoice div {
+	float: left;
+	padding: 5px;
+	overflow: auto;
+}
+div.shortinvoice table td {
+	padding: 3px;
+}
+
+
+
+div.fullinvoice_contact {
+	overflow: auto;
+	float: left;
+	margin: 0 0 25px 0;
+}
+div.fullinvoice_date {
+	overflow: auto;
+	float: right;
+}
+div.fullinvoice_items {
+	clear: both;
+	overflow: auto;
+	margin: 25px 0 25px 0;
+}
+div.fullinvoice_items table {
+	width: 100%;
+	border-collapse: collapse;
+}
+div.fullinvoice_items table td {
+	padding: 3px;
+	border: 1px #e0e0e0 dotted;
+}
+div.fullinvoice_items table tr:first-child {
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #f9f9f9;
+}
+div.fullinvoice_items table tbody tr td:nth-of-type(3) { text-align: center; }
+div.fullinvoice_items table tbody tr td:nth-of-type(4)) { text-align: center; }
+div.fullinvoice_items table tbody tr td:nth-of-type(5) { text-align: center; }
+div.fullinvoice_dueamount {
+	overflow: auto;
+	float: right;
+	clear: both;
+	font-weight: bold;
+	text-align: right;
+	margin: 15px 0 25px 0;
+}
+div.fullinvoice_message {
+	overflow: auto;
+	clear: both;
+	font-style: italic;
+}
+
+
+
+
+
+@media only screen  and (min-device-width:720px){
+
+	div.ad_nei_right {
+		width: 540px; /* d */
+		padding: 7px 5px 7px 5px; /* d */
+	}
+
+	div.homepage_featured_listing {
+		width: 320px;
+		margin: 10px;
+	}
+	div.homepage_featured_listing img {
+		width: 320px;
+		height: 180px;
+	}
+	div.homepage_featured_listing_line1 {
+		padding: 1px 15px;
+		background-color: #3399ff;
+	}
+	div.homepage_featured_listing_line2 {
+		padding: 1px 15px;
+		background-color: #3399ff;
+	}
+
+}
+
+
+
+@media only screen  and (max-device-width:720px){
+
+	div.homepage_featured_listing {
+		width: 150px;
+		margin: 0px;
+	}
+	div.homepage_featured_listing img {
+		width: 144px;
+		height: 81px;
+		border: 1px #999999 solid;
+		margin: 0;
+	}
+	div.homepage_featured_listing video {
+		width: 144px;
+		height: 81px;
+		border: 1px #999999 solid;
+		margin: 0;
+	}
+	div.homepage_featured_listing_line1 {
+		margin: 0;
+		padding: 1px 6px;
+		color: #333333;
+	}
+	div.homepage_featured_listing_line2 {
+		margin: 0;
+		padding: 1px 6px;
+		color: #333333;
+	}
+
+
+	div.div_featured_listing_left {
+		height: 60px;
+		width: 80px;
+		padding: 2px 0 2px 0;
+	}
+	div.div_featured_listing_left img {
+		height: 60px;
+		width: 80px;
+	}
+	div.div_featured_listing_right {
+		height: 60px;
+		width: 237px;
+		padding: 2px 0 2px 2px;
+	}
+	div.div_featured_first_line {
+		padding: 3px 0 3px 0;
+	}
+	div.div_featured_second_line {
+		margin: 6px 0 0 0;
+		padding: 3px 0 3px 3px;
+	}
+	span.span_featured_rent_label {
+		padding: 0 1px 0 1px;
+	}
+
+
+	div.featuredpropertiesdiv{
+		width: 302px; 
+		overflow: hidden;
+		margin: 15px 0 15px 0;
+	}
+	div.featuredpropertycell{
+		width: 140px; 
+		padding: 5px;
+	}
+
+
+
+
+	/* Neighborhood ad */
+
+	div.ad_nei_right {
+		width: 180px; /* m */
+		padding: 4px; /* m */
+	}
+	div.ad_nei_contents_pname {
+		max-width: 172px; /* m */
+		height: 18px;
+		font-size: 14px;
+	}
+	div.ad_nei_contents_nname {
+		max-width: 172px;
+		height: 18px;
+		font-size: 14px;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	div.ad_nei_contents_web {
+		max-width: 172px;
+		height: 1.2em;
+		font-size: 12px;
+	}
+	div.ad_nei_contents_phone {
+		max-width: 172px;
+		height: 1.2em;
+		font-size: 14px;
+		margin: 8px 0 0 0;
+		display: block;
+	}
+	div.ad_nei_contents_ame {
+		display: none;
+	}
+	div.ad_nei_contents_lay {
+		display: none;
+	}
+	div.ad_nei_contents_lst {
+		max-width: 172px;
+		margin: 0;
+		height: 14px;
+		font-family: Verdana, sans-serif;
+		font-size: 12px;
+	}
+
+	span.ad_nei_weblabel {
+		display: none;
+	}
+
+
+
+}
+	
