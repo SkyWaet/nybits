@@ -33,6 +33,12 @@ div.div_featured_listing_wrapper {
 	overflow: hidden;
 	border-collapse: collapse;
 	display: inline-block ;
+	background-color: #C8E1FF;
+	height: 347px;
+	width: 721px;
+}
+div.textblock{
+	margin: 11px 0;
 }
 div.div_featured_listing_wrapper i {
 	color:  #0074FF;
@@ -50,22 +56,22 @@ div.div_featured_listing_left {
 	padding: 3px 0 3px 0;
 	border-top: 1px #999999 solid;
 	border-bottom: 1px #999999 solid;
-	background-color: #fcfffc;
-	margin: 0;
+	background-color: inherit;
+	margin: 0 17px 0 0;
 }
 
 div.div_featured_listing_left a{
-
 	position: relative;
+	margin-top: 8px;
 }
 
-
-
 div.div_featured_listing_left img {
-	width: 120px;
-	height: 90px;
+	width: auto;
+	height: auto;
 	padding: 0;
 	border: 0;
+	margin:43px 0 43px 10px;
+
 
 }
 
@@ -78,7 +84,7 @@ div.div_featured_listing_right {
 	margin: 0 0 0 0px;
 	border-top: 1px #999999 solid;
 	border-bottom: 1px #999999 solid;
-	background-color: #fffcfc;
+	background-color: inherit;
 	display: flex;
 	flex-direction: column;
 }
@@ -108,7 +114,7 @@ div.div_featured_second_line {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	font-family: "Roboto Light 15";
-	text-decoration-color: black;
+	color: black;
 }
 div.div_featured_postInfo{
 	font-family: "Roboto light 15";
@@ -116,12 +122,12 @@ div.div_featured_postInfo{
 }
 div.div_featured_priceInfo{
 	font-family: "Roboto Medium 21";
-	text-decoration-color: black;
+	color: black;
 	color:black;
 }
 div.div_featured_facilities{
 	font-family: "Roboto Light 15";
-	text-decoration-color: black;
+	color: black;
 }
 
 
