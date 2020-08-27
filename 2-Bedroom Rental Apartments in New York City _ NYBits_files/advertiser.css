@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 #advdashboard thead tr td {
 	background-color: #eeeef3;
 	border-bottom: 3px #333333 solid;
@@ -30,11 +32,19 @@ div.div_featured_listing_wrapper {
 	margin: 15px 0 15px 0;
 	overflow: hidden;
 	border-collapse: collapse;
+	display: inline-block ;
+}
+div.div_featured_listing_wrapper i {
+	color:  #0074FF;
+}
+
+div.div_featured_listing_wrapper i span {
+	font-family: "Roboto Regular 18";
 }
 
 div.div_featured_listing_left {
 	float: left;
-	height: 90px;
+	height: 900px;
 	width: 120px;
 	overflow: hidden;
 	padding: 3px 0 3px 0;
@@ -43,46 +53,77 @@ div.div_featured_listing_left {
 	background-color: #fcfffc;
 	margin: 0;
 }
+
+div.div_featured_listing_left a{
+
+	position: relative;
+}
+
+
+
 div.div_featured_listing_left img {
 	width: 120px;
 	height: 90px;
 	padding: 0;
-	border: 0;	
+	border: 0;
+
 }
 
 div.div_featured_listing_right {
 	overflow: hidden;
 	float: left;
 	width: 570px;
-	height: 90px;
+	height: 900px;
 	padding: 3px 0 3px 10px;
 	margin: 0 0 0 0px;
 	border-top: 1px #999999 solid;
 	border-bottom: 1px #999999 solid;
 	background-color: #fffcfc;
+	display: flex;
+	flex-direction: column;
 }
 div.div_featured_first_line {
 	padding: 6px 0 6px 0;
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis; 	
+	text-overflow: ellipsis;
+	text-decoration-color: #0074FF;
+	text-decoration: underline;
+	font-family: "Roboto Medium 21" ;
 }
 div.div_featured_first_line a {
 	text-decoration: none;
 	color: #3366cc; 
 }
 div.div_featured_first_line a:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color:  #02066B;
 }
 div.div_featured_second_line {
-	background-color: #daedff; 
+	/*background-color: #daedff;*/
 	margin: 4px 0 0 0;
 	line-height: 1.4em;
 	padding: 6px;
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis; 	
+	text-overflow: ellipsis;
+	font-family: "Roboto Light 15";
+	text-decoration-color: black;
 }
+div.div_featured_postInfo{
+	font-family: "Roboto light 15";
+	color: #A5A5A5;
+}
+div.div_featured_priceInfo{
+	font-family: "Roboto Medium 21";
+	text-decoration-color: black;
+	color:black;
+}
+div.div_featured_facilities{
+	font-family: "Roboto Light 15";
+	text-decoration-color: black;
+}
+
 
 span.span_featured_label {
 	background: #3399ff;
@@ -91,6 +132,22 @@ span.span_featured_label {
 	size: 12px;
 	font-style: bold;
 	text-transform: lowercase;
+	z-index: 2;
+	position:  relative !important ;
+	display: block;
+	font-family: "Roboto Medium 15";
+
+}
+span.span_nofee_label{
+	background: #3399ff;
+	color: #88B8F1;
+	padding: 1px 6px 1px 6px;
+	size: 12px;
+	font-style: bold;
+	text-transform: lowercase;
+	z-index: 2;
+	position:  relative !important;
+	display: block;
 }
 span.span_featured_fee_label {
 }
@@ -325,6 +382,7 @@ div.fullinvoice_message {
 	div.homepage_featured_listing img {
 		width: 320px;
 		height: 180px;
+
 	}
 	div.homepage_featured_listing_line1 {
 		padding: 1px 15px;
@@ -373,6 +431,7 @@ div.fullinvoice_message {
 		height: 60px;
 		width: 80px;
 		padding: 2px 0 2px 0;
+
 	}
 	div.div_featured_listing_left img {
 		height: 60px;
