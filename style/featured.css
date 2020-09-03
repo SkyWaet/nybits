@@ -1,0 +1,92 @@
+.featuredWrapper{
+    width: 721px;
+    height: 347px;
+    background-color: #C8E1FF;
+    display: flex;
+    flex-direction: row;
+
+}
+/* Everything for left part*/
+.featuredLeftPart{
+    width: 377px;
+
+
+}
+
+.featuredLabel{
+    font-family: "Roboto Medium 15";
+    color: #FFFFFF;
+    background-color: #88B8F1;
+    text-align: center;
+    width: 5em;
+}
+.nofeeLabel{
+    font-family: "Roboto Medium 15";
+    color: #88B8F1;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 4em ;
+    margin: 0 0.5em;
+}
+
+.featuredImages{
+    z-index: 0;
+    position: relative;
+    width: 350px;
+    height: 261px;
+    margin: 43px 17px 43px 10px;
+}
+.featuredSlider{
+    height: inherit;
+}
+.sliderPhotos{
+    height: 100%;
+    z-index: 0;
+    top:0;
+}
+.featuredPhoto{
+    height: 261px;
+}
+.featuredPhotoImage{
+    height: 100%;
+}
+.camera{
+    position: absolute;
+    top:12px;
+    left:10px;
+
+    color: #0074FF;
+}
+.camera span{
+    font-family: "Roboto Regular 18";
+}
+
+.labels{
+    z-index: 100;
+    position: absolute;
+    top:0;
+    margin: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-indicators li{
+   position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.5) ;
+}
+
+/*everything for the right part*/
+.featuredRightPart{
+    width: 344px;
+}
