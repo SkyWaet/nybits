@@ -36,7 +36,7 @@
     position: relative;
     width: 350px;
     height: 261px;
-    margin: 43px 17px 43px 10px;
+    margin: 2px 17px 43px 10px;
 }
 .featuredSlider{
     height: inherit;
@@ -53,15 +53,15 @@
     height: 100%;
 }
 .camera{
-    position: absolute;
-    top:12px;
+    position: relative;
     left:10px;
-
     color: #0074FF;
+    padding: 8px 0;
+    margin-top:8px;
 }
 .camera span{
     font-family: "Roboto Regular";
-    font-size: 18pt;
+    /*font-size: 18pt;*/
 }
 
 .labels{
@@ -93,6 +93,7 @@
 .featuredRightPart{
     height: 261px;
     width: 344px;
+    margin-top:43px;
 
 }
 .featuredTextblock{
@@ -103,7 +104,7 @@
     font-family: "Roboto Medium";
     text-decoration: underline;
     color: #0074FF;
-    font-size: 21pt;
+    /*font-size: 21pt;*/
 
 
 }
@@ -113,27 +114,27 @@
 .address{
     font-family: "Roboto Light";
     color: black;
-    font-size: 15pt;
+    /*font-size: 15pt;*/
 }
 .postInfo{
     font-family: "Roboto Light";
     color: #A5A5A5;
-    font-size: 15pt;
+    /*font-size: 15pt;*/
 }
 .priceInfo{
     font-family: "Roboto Medium";
     color: black;
-    font-size: 21pt;
+    /*font-size: 21pt;*/
 }
 .facilities{
     font-family: "Roboto Light";
     color: black;
-    font-size: 15pt;
+    /*font-size: 15pt;*/
 }
 .mobilePhone{
     color: #0074FF;
     font-family: "Roboto Regular";
-    font-size: 18pt;
+    /*font-size: 18pt;*/
 }
 .phoneIcon{
     color: #0074FF;
@@ -143,3 +144,16 @@
 }
 .nonmobile { display: inline; }
 .mobile { display: none; }
+/*regular ad part*/
+.regularWrapper{
+    width: 721px;
+    height: 347px;
+     display: flex;
+    flex-direction: row;
+}
+.textContainer{
+    height: 208px;
+    width: 333px;
+    margin-top:68px;
+    margin-bottom:68px;
+}
