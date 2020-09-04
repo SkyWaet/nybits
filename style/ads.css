@@ -221,7 +221,8 @@
     white-space: nowrap;
 }
 .facilitiesList  ul li:before {
-    content: " \00b7";
+
+    content: " \2022 ";
 }
 .textBlock{
     margin: 11px 0;
