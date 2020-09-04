@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 .featuredWrapper{
     width: 721px;
@@ -15,14 +15,14 @@
 }
 
 .featuredLabel{
-    font-family: "Roboto Medium";
+    font-family: "Roboto"; font-weight: 500;
     color: #FFFFFF;
     background-color: #88B8F1;
     text-align: center;
     width: 5em;
 }
 .nofeeLabel{
-    font-family: "Roboto Medium";
+    font-family: "Roboto"; font-weight: 500;
     color: #88B8F1;
     background-color: #FFFFFF;
     text-align: center;
@@ -59,7 +59,7 @@
     margin-top:8px;
 }
 .camera span{
-    font-family: "Roboto Regular";
+    font-family: "Roboto"; font-weight: 400;
     font-size: 18px;
 }
 
@@ -100,7 +100,7 @@
 
 }
 .header{
-    font-family: "Roboto Medium";
+    font-family: "Roboto"; font-weight: 500;
     text-decoration: underline;
     color: #0074FF;
     font-size: 21px;
@@ -115,30 +115,30 @@
     color: #02066B !important;
 }
 .address{
-    font-family: "Roboto Light";
+    font-family: "Roboto"; font-weight: 300;
     color: black;
     font-size: 15px;
 }
 .postInfo{
-    font-family: "Roboto Light";
+    font-family: "Roboto"; font-weight: 300;
     color: #A5A5A5;
     font-size: 15px;
 }
 .priceInfo{
-    font-family: "Roboto Medium";
+    font-family: "Roboto"; font-weight: 500;
     color: black;
     font-size: 21px;
     display: inline;
 }
 .ner{
-    font-family: "Roboto Light ";
+    font-family: "Roboto"; font-weight: 300 !important;
     font-size: 15px;
     color: black;
 }
 /*
 .facilitiesList{
 
-    font-family: "Roboto Light";
+    font-family: "Roboto"; font-weight: 300;
     color: black;
     font-size: 15px;
     display: flex;
@@ -149,13 +149,13 @@
 }*/
 
 .facilities{
-    font-family: "Roboto Light";
+    font-family: "Roboto"; font-weight: 300;
     font-size: 15px;
 
 }
 .mobilePhone{
     color: #0074FF;
-    font-family: "Roboto Regular";
+    font-family: "Roboto"; font-weight: 400;
     font-size: 18px;
 }
 .phoneIcon{
@@ -195,7 +195,7 @@
 .List li{
     display: inline-block;
     margin: 0 ;
-    font-family: "Roboto Light";
+    font-family: "Roboto"; font-weight: 300;
     color: black;
     font-size: 15px;
 }
@@ -225,4 +225,12 @@
 }
 .textBlock{
     margin: 11px 0;
+}
+.price{
+    font-family: "Roboto"; font-weight: 500;
+    color: black;
+    font-size: 21px;
+}
+.regFacList{
+    margin-top:11px;
 }
